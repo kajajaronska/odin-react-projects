@@ -1,0 +1,33 @@
+/*****************************/
+/* CONTAINER STYLING */
+/*****************************/
+.Container {
+    width: 55vw;
+    background-color: var(--sage);
+    padding: 3rem;
+    margin: 2rem;
+
+    border-radius: 10px;
+}
+
+.header {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    margin-left: 2rem;
+    list-style:circle;
+}
