@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Container.css";
+import Button from "./Button";
 
 class Container extends React.Component {
     render() {
@@ -9,6 +10,8 @@ class Container extends React.Component {
                 <div className="content">
                     {this.props.children}
                 </div>
+                <Button content="edit" class="btn-edit"/>
+                <Button content="submit" class="btn-submit"/>
             </div>
         )
     }
