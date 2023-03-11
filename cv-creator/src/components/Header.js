@@ -7,13 +7,13 @@ class Header extends React.Component {
             <div className="Header">
             
                 <div className="full-name">
-                    <input className="first-name" type="text" placeholder="first name" value=""></input>
-                    <input className="last-name" type="text" placeholder="last name" value=""></input>
+                    <input className="first-name" type="text" placeholder="first name"></input>
+                    <input className="last-name" type="text" placeholder="last name"></input>
                 </div>
 
                 <div className="contact-details">
-                    <input className="email" type="email" placeholder="your email goes here"></input>
-                    <input className="phone-number"></input>
+                    <input className="email" type="email" placeholder="your email"></input>
+                    <input className="phone-number" placeholder="your phone number"></input>
                 </div>
             </div>
         )

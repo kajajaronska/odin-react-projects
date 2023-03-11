@@ -1,31 +1,86 @@
 /*****************************/
+/* FONTS */
+/*****************************/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap');
+
+
+/*****************************/
+/* VARIABLES */
+/*****************************/
+:root {
+    --sage: #e7f7ec;
+    --dark: #222623; 
+    --dark-blue: #1F2937;
+    --light-blue: #36455b;
+    --caramel: #D69461;
+    --white: #ffffff;
+    --font-2: 'Raleway', sans-serif;
+
+}
+
+
+
+
+
+/*****************************/
 /* HEADER LAYOUT */
 /*****************************/
 
 .Header {
-    display: grid;
-    grid-template-columns: 2fr 4fr;
-    align-items: center;
-    justify-items: center;
-}
-
-.right-side {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 2rem;
+    align-items: center;
+    justify-items: center;
 
+    font-family: var(--font-2);
+}
+
+
+input {
+    background-color: var(--sage);
+    border: none;
+    width: 100%;
+
+}
+
+input:focus {
+    outline: none;
+    /* text-align: right; */
+}
+
+.input:focus {
+    border: none;
+}
+
+
+/* FULL NAME ELEMENT STYLING */
+
+.full-name input {
+    font-size: 5rem;
 }
 
 .full-name {
     display: flex;
-    gap: 1.5rem;
-    font-size: 3.5rem;
+    gap: 1.5rem; 
 }
+
 
 .first-name {
     color: var(--caramel);
 }
+
+
+.last-name {
+    color: var(--dark-blue);
+}
+
+.last-name, 
+.first-name {
+    text-transform: uppercase;
+}
+
+/* CONTACT DETAILS STYLING */
 
 .contact-details {
     display: flex;
@@ -35,18 +90,9 @@
     justify-content:flex-start;
 
 }
-/*****************************/
-/* IMAGE */
-/*****************************/
 
-img {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-}
-
-.contact-icon {
-    font-size: 3rem;
+.contact-details input {
+    font-size: 1.5rem;
     color: var(--dark-blue);
 }
 

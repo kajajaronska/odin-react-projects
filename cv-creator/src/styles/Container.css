@@ -2,7 +2,7 @@
 /* CONTAINER STYLING */
 /*****************************/
 .Container {
-    width: 55vw;
+    width: 60vw;
     background-color: var(--sage);
     padding: 3rem;
     margin: 2rem;
@@ -30,4 +30,18 @@
 ul {
     margin-left: 2rem;
     list-style:circle;
+}
+
+/*****************************/
+/* BUTTON STYLING */
+/*****************************/
+
+button {
+    width: 6rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--light-blue);
+    color: var(--white);
+    font-weight: bold;
+    padding: 0.7rem 0;
 }
