@@ -5,14 +5,15 @@ class Header extends React.Component {
     render() {
         return (
             <div className="Header">
+            
                 <div className="full-name">
-                    <div className="first-name">FIRST NAME</div>
-                    <div className="last-name">LAST NAME</div>
+                    <input className="first-name" type="text" placeholder="first name" value=""></input>
+                    <input className="last-name" type="text" placeholder="last name" value=""></input>
                 </div>
 
                 <div className="contact-details">
-                    <div className="email">your-email@mail.com</div>
-                    <div className="phone-number">###########</div>
+                    <input className="email" type="email" placeholder="your email goes here"></input>
+                    <input className="phone-number"></input>
                 </div>
             </div>
         )

@@ -9,9 +9,9 @@ class Container extends React.Component {
                 <h2 className="header">{this.props.header}</h2>
                 <div className="content">
                     {this.props.children}
-                </div>
                 <Button content="edit" class="btn-edit"/>
                 <Button content="submit" class="btn-submit"/>
+                </div>
             </div>
         )
     }
